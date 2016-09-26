@@ -1,0 +1,4 @@
+#!/bin/bash
+# Gets all the png, jpg images using wget recursively
+wget -nd -e robots=off -r --no-parent -P $1 -A '.jpg' $2
+
